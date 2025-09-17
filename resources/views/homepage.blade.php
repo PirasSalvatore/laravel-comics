@@ -6,4 +6,5 @@ Homepage
 
 @section('content')
     @include('partials.comicsGrid')
+    @include('partials.shopBanner')
 @endsection
