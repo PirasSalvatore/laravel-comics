@@ -21,6 +21,11 @@
     --dcc-darker: #1c1c1c;
 }
 
+.container {
+    width: 70%;
+    margin: auto;
+}
+
 body {
     font-family: "Open", Sans;
 }
@@ -30,8 +35,6 @@ header {
 
 
     .container {
-        width: 70%;
-        margin: auto;
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
     }
@@ -81,5 +84,79 @@ header {
         background-size: cover;
         width: 100%;
         height: 250px;
+    }
+}
+
+main {
+    background-color: var(--dcc-darker);
+    color: var(--dcc-lighter);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .btn-category-container {
+
+        .btn-category {
+            position: absolute;
+            top: 315px;
+            left: 200px;
+            background-color: var(--dcc-prymary);
+            padding: 0.5rem 1rem;
+            color: var(--dcc-lighter);
+            font-weight: 600;
+            border: none;
+            font-size: 16px;
+            text-align: center;
+        }
+    }
+
+    .btn-load-container {
+        text-align: center;
+
+        .btnLoad {
+            background-color: var(--dcc-prymary);
+            padding: 0.5rem 2rem;
+            color: var(--dcc-lighter);
+            font-weight: 600;
+            border: none;
+        }
+    }
+
+    .album {
+        padding: 1rem;
+
+        .row {
+            row-gap: 2rem;
+
+            .card {
+                width: 150px;
+                height: 250px;
+                border: none;
+
+
+                .card-figure {
+                    overflow: hidden;
+                    height: 150px;
+                }
+
+                .cardImg {
+                    width: 155%;
+                    position: relative;
+                    left: -37px;
+                }
+
+                .card-body {
+                    background-color: var(--dcc-darker);
+                    text-align: center;
+                    padding: 0.5rem 0;
+
+                    .title {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: var(--dcc-lighter);
+                    }
+                }
+            }
+        }
     }
 }

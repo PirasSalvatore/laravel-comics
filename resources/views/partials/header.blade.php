@@ -27,7 +27,5 @@
         </div>
     </div>
 
-    <div class="jumbotron">
-        
-    </div>
+    @include('partials.jumbotron')
 </header>

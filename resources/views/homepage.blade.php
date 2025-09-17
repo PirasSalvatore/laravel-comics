@@ -5,5 +5,5 @@ Homepage
 @endsection
 
 @section('content')
-    <h2>Homepage</h2>
+    @include('partials.comicsGrid')
 @endsection
