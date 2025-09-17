@@ -11,7 +11,7 @@
 
     <div class="album col-12">
         <div class="container">
-            <div class="row justify-content-center text-center py-5">
+            <div class="row justify-content-center text-center pt-5">
                 @foreach ($comics as $comic)
                 <div class="col-2">
                     <x-card>
